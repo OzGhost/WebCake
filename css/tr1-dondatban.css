@@ -1,0 +1,32 @@
+.order-list {
+	max-height: 80%;
+	overflow-y: auto;
+}
+
+.remote-btn {
+	margin: 15px 0;
+}
+
+.slidee.toggle .remote-btn span {
+	padding: 10px;
+	background-color: #337ab7;
+	color: white;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.slidee.toggle .remote-btn span.notice {
+	background-color: white;
+	color: red;
+}
+
+.slidee.toggle .dsdb tr.selecting td {
+	background-color: gray;
+	color: white;
+	border-color: white;
+}
+
+.slidee.toggle .hide {
+	display: none;
+}
+

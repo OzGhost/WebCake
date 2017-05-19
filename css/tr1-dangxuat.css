@@ -1,0 +1,38 @@
+
+
+
+.exit {
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #337ab7;
+	border-radius: 10px;
+	display: block;
+}
+.exit label {
+	padding: 20px 20px;
+	color:white;
+}
+.left, .right {
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	background-color:#F3ECEC;
+	color: black;
+	display: inline-block;
+}
+
+.left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 10px;
+}
+
+.exit div:hover{
+	color:white;
+	background-color: #EA3C14;
+}

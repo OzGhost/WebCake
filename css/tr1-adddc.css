@@ -1,0 +1,101 @@
+
+.slidee.toggle input:focus {
+	outline: none;
+}
+.slidee.toggle textarea:focus {
+	outline: none;
+}
+.slidee.toggle textarea {
+	resize: none;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #A1D4F7;
+	font-size: 13px;
+	font-family:Arial;
+	overflow: auto; 
+	padding: 8px;
+	width: 300px;
+}
+.slidee.toggle input {
+	padding: 8px;
+	border-radius: 10px;
+	border: 1px solid #A1D4F7;
+}
+.slidee.toggle input[type="password"]{
+	width: 300px;
+}
+.slidee.toggle input[type="submit"] {
+	color: #FFFFFF;
+	background-color:#3905FB;
+	padding: 15px 25px;
+	font-size: 16px;
+	border-radius: 10px;
+	text-align: center;
+}
+.slidee.toggle input[type="text"] {
+	width: 300px;
+}
+.slidee.toggle input[type="number"] {
+	width: 300px;
+}
+.slidee.toggle .difi {
+	margin-right: 70%;
+}
+.slidee.toggle label {
+	/*padding: 20px; 
+	margin: 20px auto;*/
+	line-height: 30px; 
+}
+.one ,.two ,.three ,.four ,.five ,.six{
+	padding: 5px;
+}
+/*.slidee.toggle .six {
+	padding-left: 15px
+}*/
+.slidee.toggle span:not(.close-toggle-slidee) {
+	margin-right: 45%;
+	float: right;
+}
+
+.slidee.toggle .footer {
+	margin-top: 2px;
+	margin-left: 250px;
+	float: left;
+}
+
+.slidee.toggle .user span {
+	float: none;
+	margin: 0 auto;
+}
+
+/*error message*/
+
+div[name="addadd-error"] {
+	display: block;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+div[name="addadd-error"].hide {
+	display: none;
+}
+
+.slidee.toggle div.infor form div[name="addadd-error"] span {
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+.slidee.toggle div.infor form div[name="addadd-error"] span:first-child {
+	color: yellow;
+	text-shadow: 0 0 3px red;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.slidee.toggle div.infor form div[name="addadd-error"] span:last-child {
+	color: red;
+	font-size: 18px;
+	line-height: 30px;
+}
+

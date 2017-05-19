@@ -1,0 +1,42 @@
+
+.slidee.toggle .bor2 {
+	margin-right: 10%;
+	float: right;
+	border-right: 1px solid #337ab7;
+	line-height: 25px;
+}
+.slidee.toggle table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+.slidee.toggle td{
+	padding: 5px 10px;
+	border:1px solid black;
+	text-align: center;
+}
+.slidee.toggle table tr:first-child td {
+	background-color:white;
+	color:black;
+	font-weight: bold;
+}
+.slidee.toggle table td:nth-child(3) {
+	text-align: left;
+}
+
+.slidee.toggle table tr:first-child td {
+	text-align: center;
+}
+
+.slidee.toggle table td ul {
+	margin-left: 10px;
+}
+
+.slidee.toggle .bor2 {
+	overflow-y: auto;
+}
+
+.slidee.toggle .firstblack {
+	background-color: #337ab7;
+}

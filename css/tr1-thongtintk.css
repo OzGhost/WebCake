@@ -1,0 +1,104 @@
+
+.slidee.toggle input:focus {
+	outline: none;
+}
+.slidee.toggle input {
+	padding: 5px;
+	border: 1px solid #337ab7;
+}
+.slidee.toggle input[type="password"]{
+	width: 300px;
+}
+.slidee.toggle input[type="submit"] {
+	color: hotpink;
+    background-color: #FFE4E1;;
+    padding: 15px 150px;
+    font-family: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: -86px;
+    border: none;
+
+}
+.slidee.toggle input[type="text"] {
+	width: 300px;
+}
+.slidee.toggle input[type="email"] {
+	width: 300px;
+}
+.slidee.toggle .one 	.difi {
+	margin-right: 64%;
+}
+
+.slidee.toggle input[type="date"] {
+	width: 300px;
+	height: 20px;
+}
+.slidee.toggle .bor2 .infor label {
+	padding: 0px; 
+	margin: 2px 3px;
+	line-height: 30px;
+	font-weight: normal;
+}
+.one ,.two ,.three ,.four ,.five ,.six ,.seven ,.eight{
+	padding: 5px;
+}
+
+.slidee.toggle span:not(.close-toggle-slidee) {
+	margin-right: 30%;
+
+	float: right;
+}
+
+.slidee.toggle .user span {
+	margin: 0 auto;
+	position: static;
+	float: none;
+}
+
+.slidee.toggle .add {
+	display: none;
+}
+.slidee.toggle .footer {
+	margin-top: 2px;
+	margin-left: 250px;
+	float: left;
+}
+.six, .seven , .eight{
+	display: none;
+}
+
+.slidee.toggle .change {
+	display: block;
+}
+
+/*error message*/
+
+div[name="updateI-error"] {
+	display: block;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+div[name="updateI-error"].hide {
+	display: none;
+}
+
+.slidee.toggle div.infor form div[name="updateI-error"] span {
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+.slidee.toggle div.infor form div[name="updateI-error"] span:first-child {
+	color: yellow;
+	text-shadow: 0 0 3px red;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.slidee.toggle div.infor form div[name="updateI-error"] span:last-child {
+	color: red;
+	font-size: 18px;
+	line-height: 30px;
+}

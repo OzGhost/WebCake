@@ -1,0 +1,104 @@
+h2 {
+	color:hotpink;
+	padding-top: 20px;
+	background-color: #FFE4E1;
+	padding: 20px 20px;
+
+}
+.slidee.toggle{
+	padding-top: 20px;
+}
+.slidee.toggle h1 {
+	font-size: 50px;
+	color: white;
+	line-height: 20px;
+}
+.slidee.toggle h2,h3 {
+	font-weight: normal;
+}
+/*-----------------------------kết thúc logo*/
+.slidee.toggle p>span{
+	font-size: 20px;
+}
+.slidee.toggle a>span { 
+	color: #337ab7;
+	margin-left: 130px;
+}
+.slidee.toggle .face1>span {
+	color:red;
+}
+.slidee.toggle .foot1>span {
+	color:red;
+}
+.slidee.toggle .list ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 30px;
+}
+.slidee.toggle .list ul li{
+	padding-left: 15px;
+	margin: 5px 5px;
+}
+.slidee.toggle .list ul li:hover{
+	background-color: #337ab7;
+}
+.slidee.toggle a {
+	text-decoration: none;
+}
+.slidee.toggle .press {
+	background-color: #337ab7;
+}
+.slidee.toggle .list ul li a {
+	color: #1D1818;
+	display: block;
+	margin-left: 20px;
+}
+.slidee.toggle .list ul li.press a{
+	color:white;
+} 
+.slidee.toggle .bor1 {
+	float: left;
+	display: inline-block;
+	width: 15%;
+	margin-left:10%;
+	line-height: 30px;
+	height: 85%;
+	border-top: 1px solid #337ab7;;
+	border-right: 1px solid #337ab7;
+	border-left: 1px solid #337ab7;
+	border-bottom: 1px solid #337ab7;
+	margin-top: 5px;
+	background-color:  white;
+	box-sizing: border-border;
+}
+.slidee.toggle .user {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	border-bottom: 1px solid white;
+	color: white;
+	background-color:#337ab7;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slidee.toggle .bor2 {
+	float: left;
+	display: inline-block;
+	width: 60%;
+	padding: 0px 35px;
+	position: absolute;
+	height:82%;
+	border-top: none;
+	border-left: none;
+	border-right: 1px solid #337ab7;
+	border-bottom: 1px solid #337ab7;
+	border-top: 1px solid #337ab7;
+	margin-top: 5px;
+	background-color: white;
+	border-left: 1px solid #337ab7;
+	box-sizing: border-border;
+}
+
+

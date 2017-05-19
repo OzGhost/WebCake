@@ -1,0 +1,49 @@
+table.getInfo {
+	margin: 10px auto;
+}
+
+table.getInfo td {
+	padding: 5px;
+}
+
+table.getInfo tr td:first-child {
+	text-align: right;
+}
+
+.getInfo td:first-child select {
+	padding: 10px 0;
+	width: 100%;
+}
+
+table.getInfo {
+	margin: 0 auto;
+	width: 80%;
+	position: relative;
+}
+
+.getInfo input:not(input[type='radio'], input[type='button']),
+.getInfo textarea {
+	width: 100%;
+}
+
+table.getInfo tr td:last-child {
+	text-align: left;
+}
+
+table.getInfo tr:last-child td {
+	text-align: center;
+}
+
+table.getInfo tr td label {
+	padding-left: 5px;
+}
+
+table.getInfo textarea {
+	resize: none;
+	width: 100%;
+}
+
+.getInfo input[type='button'] {
+	padding: 20px 40px;
+	font-size: 16px;
+}

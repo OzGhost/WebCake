@@ -1,0 +1,26 @@
+
+.star2 {
+	width: 30%;
+	margin: 0px auto;
+	text-align: left;
+	line-height: 60px;
+	font-size: 18px;
+}
+.star2>img {
+	float: left;
+	width: 60px;
+	height:60px;
+
+}
+.afterbuy {
+	margin-left: 25px;
+	line-height: 35px;
+}
+.buy>b {
+	font-size: 18px;
+}
+
+.finally {
+	text-align: center;
+	margin: 10px;
+}

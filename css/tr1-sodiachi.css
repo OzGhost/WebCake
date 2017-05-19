@@ -1,0 +1,115 @@
+
+.slidee.toggle .content {
+	float: left;
+	width: 100%;
+
+}
+.slidee.toggle .adress {
+	float:right;
+	border:1px solid #337ab7;
+	padding: 10px 20px 10px 20px ;
+	margin-top: -8px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #337ab7;
+}
+.slidee.toggle .adress a,
+.slidee.toggle .adress span{
+	color: #FFFFFF;
+}
+
+.slidee.toggle .dsSDC {
+	border: 1px solid rgb(51, 122, 183);
+	border-radius: 20px;
+	padding: 20px;
+	margin: 0px auto;
+	margin-left: 20%;
+	margin-right: 20px;
+	max-height: 80%;
+	overflow-y: auto;
+}
+
+.slidee.toggle .dsSDC .itemDC {
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.slidee.toggle .dsSDC .itemDC.choosed {
+	border: 3px solid gray;
+	background-color: white;
+}
+
+.slidee.toggle .dsSDC .itemDC.default {
+	border: 3px solid black;
+}
+
+
+.slidee.toggle .itemDC table, td {
+	border: none;
+}
+
+.slidee.toggle .itemDC table tr:first-child td:first-child {
+	border-right: 1px solid gray;
+	padding: 10px;
+}
+
+.slidee.toggle .itemDC table tr:first-child td:last-child {
+	border-bottom: 1px solid gray;
+}
+
+.slidee.toggle .itemDC.default table tr:first-child td:first-child {
+	border-right: 1px solid black;
+}
+
+.slidee.toggle .itemDC.default table tr:first-child td:last-child {
+	border-bottom: 1px solid black;
+}
+
+.slidee.toggle #setdefault {
+	cursor: pointer;
+}
+
+.slidee.toggle #setdefault.onpress {
+	background-color: white;
+}
+
+.slidee.toggle #setdefault.onpress span{
+	color: #337ab7;
+}
+
+
+/*notice message*/
+
+div[name="addr-notice"] {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+div[name="addr-notice"].hide {
+	display: none;
+}
+
+.slidee.toggle div.content div[name="addr-notice"] span {
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+.slidee.toggle div.content div[name="addr-notice"] span:first-child {
+	color: yellow;
+	text-shadow: 0 0 3px red;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.slidee.toggle div.content div[name="addr-notice"] span:last-child {
+	color: red;
+	font-size: 18px;
+	line-height: 35px;
+}

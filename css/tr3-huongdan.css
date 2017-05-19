@@ -1,0 +1,97 @@
+
+.pdate {
+	padding: 10px 10px;
+	background-color: #76D8EA;
+	color:white;
+	float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+    border: 1px solid #2FB7E9;
+    border-radius: 5px;
+}
+.menu {
+	width: 90%;
+	margin: 0px auto;
+	padding: 20px 40px;
+	/*background-color:#F8F8FF;*/
+	vertical-align: middle;
+
+}
+.menucon {
+	width: 90%;
+	margin: auto;
+}
+video {
+	width: 700px;
+	height:430px;
+}
+.p03 table td {
+	padding-right: 10px;
+	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.article {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#1E90FF;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color:#DDDF5F;
+}
+a {
+	color:#1ABBF7;
+}
+.hightlight {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #73E6DD;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+table tr td p{
+	height: 90px;
+	position: relative;
+	line-height: 30px;
+	margin-left: 15px;
+}
+table tr td p span {
+	font-size: 12px;
+}
+table img {
+	width: 200px;
+	height:120px;
+}
+.p03 a:visited {
+	color:#1ABBF7;
+}
+.center  {
+	width: 80%;
+	height: 100%;
+	background-color: #C6EEF7;
+	margin: 5px auto;
+	text-align: center;	
+	position: relative;
+}
+
+.nen {
+	position: relative;
+	width: 90%;
+	height: 540px;
+	background-color: white;
+	display: none;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.p03 a {
+	text-decoration: none;
+}
+
+.p03 a:hover {
+	text-decoration: underline;
+}
+
+.p03 table {
+	margin-bottom: 20px;
+}

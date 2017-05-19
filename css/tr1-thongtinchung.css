@@ -1,0 +1,90 @@
+
+.slidee.toggle .informa {
+	width: 100%;
+	line-height: 40px;
+	
+}
+
+.slidee.toggle .framew {
+	border: 1px solid #337ab7;
+	border-radius: 10px;
+	padding: 5px 10px;
+	width: 337px;
+	float: left;
+	height: 60px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+.slidee.toggle .face1 {
+	border: 1px solid #337ab7;
+    border-radius: 10px;
+    padding: 10px;
+    width: 34%;
+    float: right;
+    margin-right: 40px;
+    height: 49px;
+
+}
+.slidee.toggle .adress {
+	width: 60%;
+	height: auto;
+	line-height: 35px;
+	float: left;
+	padding-bottom: 30px;
+}
+.slidee.toggle .addadress {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: right;
+	padding : 10px;
+	line-height: 20px;
+	margin-right: 40px;
+	margin-top: 20px;
+	background-color:#337ab7;
+	
+
+}
+.slidee.toggle hr:not(.footering) {
+	border-style: solid;
+    display: block;
+    margin-bottom: 20px;
+  	text-align: center;
+  	margin-right: 24px;
+  	border-color:#337ab7;
+  	clear: both;
+}
+
+.slidee.toggle .foot1 {
+
+	width: 40%;
+	float: left;
+	padding-bottom: 20px;
+	line-height: 35px;
+
+}
+
+.slidee.toggle .foot2 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: right;
+	padding : 10px;
+	line-height: 20px;
+	margin-right: 24px;
+	margin-top: 20px;
+	background-color:#337ab7;
+
+}
+.slidee.toggle .foot2 a {
+	color: #FFFFFF;
+}
+.slidee.toggle .addadress a {
+	color: #FFFFFF;
+}
+
+.slidee.toggle .defaultDC {
+	border: 1px solid rgb(51, 122, 183);;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.slidee.toggle .defaultDC table tr:first-child td {
+	border-bottom: 1px solid rgb(51, 122, 183);
+}

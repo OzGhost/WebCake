@@ -1,0 +1,126 @@
+
+.content {
+	width: 100%;
+	height: 86%;
+}
+.star1 {
+	width: 20%;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 60px;
+	font-size: 18px;
+}
+.star1>img,
+.star3>img {
+	float: left;
+	width: 60px;
+	height:60px;
+}
+.product {
+	width: 85%;
+	margin: 5px auto;
+	border: 1px solid;
+	height: 85%;
+	
+}
+.money {
+	width: 120px;
+	position:absolute;
+	border: 1px solid;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	background-color: #3A47F5;
+	color: white;
+	padding: 10px;
+}
+.image {
+	float:left;
+	width: 49.8%;
+	border-right: 1px solid;
+	height: 100%;
+	position: relative;
+}
+.image>img {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 0;
+}
+.buy {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.buy>ol {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.buy ol li {
+	line-height: 18px;
+}
+input[type="submit"] {
+	padding: 10px 85px;
+	background-color: #3198EF;
+	color:white;
+	margin: 10px auto;
+	font-size: 16px;
+}
+input[type="text"], input[type="number"], input[type="email"] {
+	width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.buy input[type="text"],
+.buy input[type="number"],
+.buy input[type="email"] {
+	width: 85%;
+}
+
+.first {
+	text-align: center;
+}
+
+.buy label {
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+.buy input[type="radio"] {
+	margin-left: 5px;
+	-webkit-transform: translate(0, 17%);
+	transform: translate(0, 17%);
+}
+
+.content .buy input[type="submit"] {
+	width: auto;
+}
+
+.star3 {
+	width: 30%;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 60px;
+	font-size: 18px;
+}
+
+.soluong {
+	margin-top: 2%;
+    margin-left: 94px;
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.soluong label {
+	margin-left: 12px;
+}
+
+.content .soluong input[type="submit"]{
+	width: auto;
+	padding: 10px 30px;
+}
