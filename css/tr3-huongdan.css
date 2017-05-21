@@ -14,7 +14,6 @@
 	width: 90%;
 	margin: 0px auto;
 	padding: 20px 40px;
-	/*background-color:#F8F8FF;*/
 	vertical-align: middle;
 
 }
@@ -34,18 +33,18 @@ video {
 .article {
 	font-size: 25px;
 	font-weight: bold;
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color:#1E90FF;
+	text-transform: uppercase;
+	color:#000080;
 	padding: 10px 20px;
-	border-radius: 20px;
-	background-color:#DDDF5F;
+	border-radius: 10px;
+	background-color:#00FF7F;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a {
 	color:#1ABBF7;
 }
 .hightlight {
 	padding-bottom: 10px;
-	border-bottom: 1px solid #73E6DD;
 	padding-top: 10px;
 	margin-top: 10px;
 }

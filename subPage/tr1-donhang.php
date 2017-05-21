@@ -36,7 +36,7 @@ session_start();
 						echo $row["HOTEN"];
 					}
 				} else {
-					echo "<span style='color: white; background-color: gray;'> Bạn chưa đăng nhập! </span>";
+					echo "<span> Bạn chưa đăng nhập! </span>";
 				}
 			?>
 		</div>
@@ -78,7 +78,7 @@ session_start();
 			$rs = $conn->query($sql_command);
 			$row = $rs->fetch_assoc();
 			if (!$row){
-				echo "<h2 align='center'><pre>Bạn chưa có đơn hàng nào cả :)</pre></h2>";
+				echo "<p>Bạn chưa có đơn hàng nào cả :)</p>";
 			} else {
 		?>
 			<table>

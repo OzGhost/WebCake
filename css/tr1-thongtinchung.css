@@ -1,8 +1,6 @@
 
 .slidee.toggle .informa {
-	width: 100%;
-	line-height: 40px;
-	
+	width: 100%;	
 }
 
 .slidee.toggle .framew {
@@ -13,7 +11,6 @@
 	float: left;
 	height: 60px;
 	line-height: 25px;
-	margin-bottom: 30px;
 }
 .slidee.toggle .face1 {
 	border: 1px solid #337ab7;
@@ -23,14 +20,12 @@
     float: right;
     margin-right: 40px;
     height: 49px;
-
 }
 .slidee.toggle .adress {
 	width: 60%;
 	height: auto;
 	line-height: 35px;
 	float: left;
-	padding-bottom: 30px;
 }
 .slidee.toggle .addadress {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -40,8 +35,6 @@
 	margin-right: 40px;
 	margin-top: 20px;
 	background-color:#337ab7;
-	
-
 }
 .slidee.toggle hr:not(.footering) {
 	border-style: solid;

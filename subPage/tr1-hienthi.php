@@ -50,7 +50,7 @@
 		<div class="class2">
 			<div class="child">
 				<p class="bigger"><b><?php echo $rowBanh["TENBANH"];?></b></p>
-				<p><span>Giá:
+				<p class="gia-hang"><span>Giá:
 				<?php
 					if ($rowBanh["GIAMGIA"] != '0'){
 						echo "<strike>";
@@ -89,8 +89,6 @@
 					}
 				?>
 				</span></p>
-
-				<hr>
 				<div class="comment1">
 						<input type="checkbox" id="like-btn" 	<?php
 																	if ($logon){
@@ -107,7 +105,6 @@
 						<label for="like-btn"><i class="fa fa-thumbs-up"> <?php echo $slLike;?> Like</i></label>
 					<i class="fa fa-comment"> <?php echo $slBL; ?> Comment</i>
 				</div>
-				<hr>
 				<div class="comment2">
 					<!-- <div> Comment</div> -->
 					<?php

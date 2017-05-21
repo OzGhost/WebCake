@@ -27,9 +27,11 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/tr1-all.css">
   <link rel="stylesheet" type="text/css" href="css/tr1-hienthi.css">
+  <link rel="stylesheet" type="text/css" href="css/tr1-adddc.css">
   <link rel="stylesheet" type="text/css" href="css/tr3-huongdan.css">
   <link rel="stylesheet" type="text/css" href="css/tr1-dathang.css">
   <link rel="stylesheet" type="text/css" href="css/tr1-hoantat.css">
+  <link rel="stylesheet" type="text/css" href="css/tr1-thongtintk.css">
   <link rel="stylesheet" type="text/css" href="css/payBag.css">
   <script type="text/javascript" src="js/jQuery_v1.12.3.min.js"></script>
 </head>
@@ -39,12 +41,13 @@
   <td>
     <a class="logo" href=".">
       <img src="img/logo.png"/>
-      <h1>Sweet Cakes</h1>
+      <span>SWEET CAKES</span>
     </a>
   </td>
   <td>
     <form action="search.php">
       <input class="search-bar" type="text" placeholder="Tìm kiếm tên bánh" />
+      <button type="submit" class="button-search">Tìm kiếm</button>
     </form>
   </td>
   <td class="<?php if($logon) echo 'long'; else echo 'short';?>">
@@ -90,7 +93,7 @@
                           <img src="img/gio-hang.png">
                           <span>Giỏ hàng('.$sl.')</span>
                         </a></li>
-              <li><a href="#login" data-toggle="modal">Đăng nhập</a></li>';
+              <li><a href="#login" data-toggle="modal"><i class="fa fa-user-plus" aria-hidden="true"></i> Đăng nhập</a></li>';
             }
           ?>
       </ul>
@@ -117,17 +120,17 @@
   <div class="slidee intro-p01 active" slide-num="1">
     <div class="filter flex-cont-around">
       <div class="filter-kind flex-item">
-        <span class="title">Loại:</span>
+        <span class="title">Loại</span>
         <input type="radio" value="KEM" name="kind" id="kem" /><label for="kem">Bánh Kem</label>
         <input type="radio" value="NGOT" name="kind" id="ngot" checked /><label for="ngot">Bánh Ngọt</label>
       </div>
       <div class="filter-cost flex-item">
-        <span class="title">Giá:</span>
+        <span class="title">Giá</span>
         <input type="radio" value="increase" name="cost" id="incre" checked /><label for="incre">Tăng dần</label>
         <input type="radio" value="decrease" name="cost" id="decre"><label for="decre">Giảm dần</label>
       </div>
       <div class="filter-special flex-item">
-        <span class="title">Tiêu điểm:</span>
+        <span class="title">Tiêu điểm</span>
         <input type="radio" value="sale" name="special" id="sale" checked /><label for="sale">Khuyến mãi</label>
         <input type="radio" value="hot" name="special" id="hot" /><label for="hot">Mua nhiều</label>
         <input type="radio" value="new" name="special" id="new" /><label for="new">Mới nhất</lable>
@@ -364,19 +367,19 @@
 
       <div class="events">
         <div class="eItem in">
-          <img src="img/event-icon.png">
+          <img src="img/event-icon.gif">
           <span>Chào mừng khai trương hệ thống cửa tiệm bánh mới</span>
         </div>
         <div class="eItem in">
-          <img src="img/event-icon.png">
+          <img src="img/event-icon.gif">
           <span>Từng bừng đón lễ tình nhân 14/02 cùng các ưu đãi đặc biệt</span>
         </div>
         <div class="eItem in">
-          <img src="img/event-icon.png">
+          <img src="img/event-icon.gif">
           <span>Tri ân khách hàng với chương trình bốc thăm trúng thưởng hấp dẫn</span>
         </div>
         <div class="eItem in">
-          <img src="img/event-icon.png">
+          <img src="img/event-icon.gif">
           <span>[Thông báo] Tạm đóng cửa chi nhánh ... để nâng cấp quán</span>
         </div>
       </div><!-- End events -->
@@ -402,23 +405,23 @@
               <tr>
                 <td>
                   <img src="img/videoCap/1445486642_banhkemsinhnhattainha.jpg">
-                  <p><a href="#title-vid">Cách làm bánh kem sinh nhật tại nhà</a><!--<span> - 1 giờ trước</span>--></p>
+                  <p><a href="#title-vid">Cách làm bánh kem sinh nhật tại nhà</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/59807_body_6.jpg">
-                    <p><a href="#title-vid">Cách làm bánh kem dâu ngon đẹp đơn giản</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh kem dâu ngon đẹp đơn giản</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/59807_body_5.jpg">
-                    <p><a href="#title-vid">Cách làm bánh kem giáng sinh 2016 mẫu Ông Già Noel</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh kem giáng sinh 2016 mẫu Ông Già Noel</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/hinh-anh-nen-banh-sinh-nhat-tuyet-dep-3.jpg">
-                    <p><a href="#title-vid">Làm Bánh Kem Với Phong Cách Làm Gốm Sứ Cực Đỉnh</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Làm Bánh Kem Với Phong Cách Làm Gốm Sứ Cực Đỉnh</a> </p>
                 </td>
                 <td>
                   <img src="img/videoCap/59807_body_5.jpg">
-                    <p><a href="#title-vid">Bánh kem trà xanh không cần lò nướng</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Bánh kem trà xanh không cần lò nướng</a></p>
                 </td>
               </tr>
             </table>
@@ -428,49 +431,49 @@
               <tr>
                 <td>
                   <img src="img/videoCap/tinhyeu.gif">
-                    <p><a href="#title-vid">Cách làm bánh ngọt Mararoon Pháp bốn màu</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh ngọt Mararoon Pháp bốn màu</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/Fn7q19G.jpg">
-                    <p><a href="#title-vid">Cách làm bánh Mochi cực kì đơn giản</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh Mochi cực kì đơn giản</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/chewy-junior-travelnhatrangnet-1100.jpg">
-                    <p><a href="#title-vid">Cách làm bánh ngọt cực chất</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh ngọt cực chất</a> </p>
                 </td>
                 <td>
                   <img src="img/videoCap/hinh-anh-banh-kem-5.jpg">
-                    <p><a href="#title-vid">dạy làm bánh Cheesecake chanh dây siêu ngon, cực dễ</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">dạy làm bánh Cheesecake chanh dây siêu ngon, cực dễ</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/hinh-nen-_635930351561592624.jpg">
-                    <p><a href="#title-vid">Cách làm bánh ngọt đẹp đơn giản</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh ngọt đẹp đơn giản</a></p>
                 </td>
               </tr>
             </table>
-            <p class="article hightlight">Bánh bông lan<!--<span> - 1 giờ trước</span>--></p>
+            <p class="article hightlight">Bánh bông lan</p>
             <hr>
             <table>
               <tr>
                 <td>
                   <img src="img/videoCap/mon-an-cua-nhat-mon-an-cua-nhat-thom-ngon-banh-bong-lan-tra-xanh-2.jpg">
-                    <p><a href="#title-vid">Cách làm bánh bông lan cầu vồng</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh bông lan cầu vồng</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/1430989506-banh-bong-lan-trung-muoi-7.jpg">
-                  <p><a href="#title-vid">Dạy cách làm bánh bông lan từ đầu</a><!--<span> - 1 giờ trước</span>--></p>
+                  <p><a href="#title-vid">Dạy cách làm bánh bông lan từ đầu</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/cach-lam-banh-bong-lan-1.jpg">
-                    <p><a href="#title-vid">Cách làm bánh Flan bông lan chocolate - Gateau flan</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh Flan bông lan chocolate - Gateau flan</a> </p>
                 </td>
                 <td>
                   <img src="img/videoCap/179022-banh-bl-body- (5).jpg">
-                  <p><a href="#title-vid">Cách làm bánh bông lan ngon</a> <!--<span> - 1 giờ trước</span>--></p>
+                  <p><a href="#title-vid">Cách làm bánh bông lan ngon</a> </p>
                 </td>
                 <td>
                   <img src="img/videoCap/anh 5.2.jpg">
-                    <p><a href="#title-vid">Cách làm bánh Dorayaki</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách làm bánh Dorayaki</a></p>
                 </td>
               </tr>
             </table>
@@ -480,23 +483,23 @@
               <tr>
                 <td>
                   <img src="img/videoCap/images (2).jpg">
-                    <p><a href="#title-vid">Dạy pha chế cà phê capuchino, latte cafe</a><!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Dạy pha chế cà phê capuchino, latte cafe</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/images (3).jpg">
-                    <p><a href="#title-vid">Cách pha cappuccino độc đáo</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách pha cappuccino độc đáo</a> </p>
                 </td>
                 <td>
                   <img src="img/videoCap/cach-pha-capuchino-don-gian-co-the-lam-bang-may-hoac-bang-tay.jpg">
-                    <p><a href="#title-vid">Cách vẽ hình trên tách Cappucino</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Cách vẽ hình trên tách Cappucino</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/Cappuccino_in_Tokio.jpg">
-                  <p><a href="#title-vid">Cách làm Coffee Capuchino</a><!--<span> - 1 giờ trước</span>--></p>
+                  <p><a href="#title-vid">Cách làm Coffee Capuchino</a></p>
                 </td>
                 <td>
                   <img src="img/videoCap/capu-chi-no-cho-ngay-nang_top9xy.wap.sh.jpg">
-                    <p><a href="#title-vid">Đẳng Cấp Pha Cà Phê Capuchino</a> <!--<span> - 1 giờ trước</span>--></p>
+                    <p><a href="#title-vid">Đẳng Cấp Pha Cà Phê Capuchino</a></p>
                 </td>
               </tr>
             </table>
@@ -511,60 +514,57 @@
 
   <!-- Part 04: contact -->
   <div class="slidee p04"  slide-num="4">
-    <div class="flex-cont-around">
-    <div class="panel flex-item">
+      <div class="flex-cont-around">
+        <div class="panel flex-item width50">
+              <div class="header">
+                <span>Gửi tin nhắn</span>
+              </div>
+        <div>
+          <form action="subPage/lienhe.php" method="post">
+                  <div class="form-class">
+                      <input type="text" name="name" placeholder="Tên của bạn" data-validation-required-message="Vui lòng nhập tên của bạn." aria-invalid="false">
+                      <input type="text" name="email" placeholder="Email" data-validation-required-message="Vui lòng nhập email của bạn." aria-invalid="false">
+                  </div>
+                  <div class="form-class">
+                      <input type="text" name="subject" placeholder="Chủ đề"  data-validation-required-message="Vui lòng nhập số điện thoại của bạn." aria-invalid="false">
+                      <input type="text" name="subject-con" placeholder="Nội dung" data-validation-required-message="Vui lòng nhập email của bạn." aria-invalid="false">
+                  </div>
+                  
+                  <div class="form-class">
+                    <textarea placeholder="Nội dung chi tiết" name="content" rows="4" data-validation-required-message="Vui lòng nhập lời nhắn của bạn." aria-invalid="false"></textarea/>
+                  </div>
+                </div>
+                <div class="center-email">
+                  <button type="submit">Gửi Ngay</button>
+                </div>  
+          </form>
+        </div>
+    <div class="contact flex-item width30">
       <div class="header">
-        <h1>Message</h1>
+        <span>Liên hệ với tôi</span>
       </div>
-      <div class="chuaform">
-      <form action="subPage/lienhe.php" method="post">
-        <div class="form-class">
-          <label>Tên</label>
-          <input type="text" name="name" placeholder="Tên" size="60" data-validation-required-message="Vui lòng nhập tên của bạn." aria-invalid="false">
-          <hr >
-        </div>
-        <div class="form-class">
-          <label>Email</label>
-          <input type="text" name="email" placeholder="Email" size="60" data-validation-required-message="Vui lòng nhập email của bạn." aria-invalid="false">
-          <hr>
-        </div>
-        <div class="form-class">
-          <label>Chủ đề </label>
-          <input type="text" name="subject" placeholder="Chủ đề" size="60" data-validation-required-message="Vui lòng nhập số điện thoại của bạn." aria-invalid="false">
-          <hr>
-        </div>
-        
-        <div class="form-class">
-          <label>Nội dung</label>
-          <textarea placeholder="Nội dung" name="content" rows="2" cols="60" data-validation-required-message="Vui lòng nhập lời nhắn của bạn." aria-invalid="false"></textarea/>
-          <hr>
-        </div>
-        </div>
-        <div class="center">
-          <input type="submit" value="Gửi">
-        </div>  
-      </form>
-
-    </div>
-    <div class="contact flex-item">
-    <h1>Contact</h1>
-    <img src="./img/emai.png">
-    <span class="befor1"><a href="mailto:tranhuong13520340@gmail.com"> tranhuong13520340@gmail.com</a></span><br>
-    <img src="./img/dienthoai.png">
-    <span class="befor2"> +84 672 419 575</span><br>
-     <img src="./img/diachi.png">
-    <span class="befor3"> Kí túc xá khu B, HCM City</span><br><br>
-    <h1>Social networks</h1>
-    <img src="./img/face.png">
-    <span class="befor1"><a href="https://www.facebook.com/Sweet-Cakes-813512162118489"> Facebook</a></span>
-    
-    </div>
+      <i class="fa fa-envelope mail" aria-hidden="true"></i>
+      <span >13520340@gm.uit.edu.vn</span><br>
+      <i class="fa fa-phone phone" aria-hidden="true"></i>
+      <span > 01672 419 575</span><br>
+      <i class="fa fa-map-marker location" aria-hidden="true"></i>
+      <span > Kí túc xá khu B, HCM City</span><br><br>
+      <div class="header">
+        <span>Mạng xã hội</span>
+      </div>
+      <a class = "face" href="#"><i class="fa fa-facebook " aria-hidden="true"></i> Facebook</a>
+      <a class = "twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</a>
+      <a class = "instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a><br><br>
+      <a class = "youtube" href="#"><i class="fa fa-youtube " aria-hidden="true"></i> Youtube</a>
+      <a class = "google" href="#"><i class="fa fa-google-plus " aria-hidden="true"></i> Google+</a>
+      
+      <a class = "linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</a>
+      </div>
   </div><!-- end flex-cont -->
   </div><!-- End Slidee 04 -->
 
 
 </div><!-- End BigFather -->
-
 
 	<div class="full-screen-wall">
     <a href="#close-wall"><span class="fa fa-times-circle-o" aria-hidden="true"></span></a>

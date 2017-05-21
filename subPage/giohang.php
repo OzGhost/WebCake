@@ -16,9 +16,6 @@
 				if (isset($_GET["throwout"]) && !empty($_GET["throwout"])){
 					unset($_SESSION["giohang"][$_GET["throwout"]]);
 					if (count($_SESSION["giohang"]) == 0) unset($_SESSION["giohang"]);
-					// echo "<pre>";
-					// echo count($_SESSION["giohang"]);
-					// echo "</pre";
 				}
 		?>
 		<table>

@@ -1,4 +1,3 @@
-
 .content {
 	width: 100%;
 	height: 86%;
@@ -19,25 +18,26 @@
 .product {
 	width: 85%;
 	margin: 5px auto;
-	border: 1px solid;
 	height: 85%;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.16), 0 4px 10px 0 rgba(0,0,0,.12);
 	
 }
 .money {
-	width: 120px;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
 	position:absolute;
-	border: 1px solid;
 	z-index: 1;
 	bottom: 0;
 	right: 0;
-	background-color: #3A47F5;
+	background-color: #FF8800;
 	color: white;
-	padding: 10px;
+	text-transform: uppercase;
+	padding: 15px;
 }
 .image {
 	float:left;
 	width: 49.8%;
-	border-right: 1px solid;
 	height: 100%;
 	position: relative;
 }
@@ -62,14 +62,15 @@
 .buy ol li {
 	line-height: 18px;
 }
-input[type="submit"] {
+.buy input[type="submit"] {
 	padding: 10px 85px;
 	background-color: #3198EF;
 	color:white;
 	margin: 10px auto;
 	font-size: 16px;
+	border: 0px;
 }
-input[type="text"], input[type="number"], input[type="email"] {
+.buy input[type="text"],.buy input[type="number"],.buy input[type="email"] {
 	width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -83,6 +84,16 @@ input[type="text"], input[type="number"], input[type="email"] {
 
 .first {
 	text-align: center;
+    margin-top: 20px;
+}
+.first input {
+	color:white;
+	background: #FF8800;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border:0;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.16), 0 4px 10px 0 rgba(0,0,0,.12);
 }
 
 .buy label {
@@ -110,16 +121,14 @@ input[type="text"], input[type="number"], input[type="email"] {
 
 .soluong {
 	margin-top: 2%;
-    margin-left: 94px;
-    width: 30%;
-    display: inline-block;
-    float: left;
+    padding-top: 35px;
 }
 
 .soluong label {
-	margin-left: 12px;
+	margin-left: 20px;
 }
 
+.content .soluong input[type="number"],
 .content .soluong input[type="submit"]{
 	width: auto;
 	padding: 10px 30px;

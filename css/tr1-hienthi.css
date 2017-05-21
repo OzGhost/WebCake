@@ -1,47 +1,46 @@
-.class1, .class2 {
-	border: 1px solid #BAB3B3;
-}
-/*.content {
-	width: 100%;
-	height: 100hv;
-}*/
-.class1 {
+.std-pane .class1 {
 	float: left;
 	width: 65%;
 	height: 100%;
 	box-sizing: border-box;
 }
-.class1>img {
+.std-pane .class1>img {
 	width: 100%;
 	height: 100%;
 }
-.class2 {
+.std-pane .class2 {
 	float: left;
 	width: 35%;
 	height: 100%;
-	background-color: #E0DBDB;
 	box-sizing: border-box;
 }
-.child {
+.std-pane .class2 .child {
 	width: 80%;
 	height: 85%;
 	margin: 10px 40px;
 }
-.child>p>b {
+.std-pane .class2 .child>p>b {
 	color:#2789ED;
 }
-.bigger {
+.std-pane .class2 .child .bigger {
 	font-size: 18px;
 	line-height: 35px;
 }
-.comment2 {
-	width: 100%;
-	overflow-y: auto;
-	max-height: 80%;
-	position: relative;
-	line-height: 30px;
+.std-pane .class2 .child .gia-hang {
+	line-height: 40px;
 }
-.comment2 img, .footer img{
+.std-pane .class2 .child .gia-hang,
+.comment1,
+.std-pane .class2 .child .bigger {
+	border-bottom: 2px solid #2789ED;
+}
+.std-pane .class2 .child .comment2 {
+    overflow-y: auto;
+    line-height: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.std-pane .class2 .child .comment2 img, .footer img{
 	width: 40px;
 	height: 30px;
 	float: left;
@@ -53,6 +52,11 @@
 .comment2>div {
 	margin: 0px;
 }
+.comment1 {
+	color:#0099CC;
+	line-height: 40px;
+	font-size: 15px;
+}
 .comment1>label {
 	padding: 0px 10px;
 }
@@ -60,18 +64,23 @@
 	line-height: 30px;
 	padding-top: 10px;
 }
-.myModal input[type="text"] {
+.footer input {
+	padding: 10px;
+	width: 91%;
+	border: 2px solid #2789ED;
+}
+/*.myModal input[type="text"] {
 	width: 83%;
 	height: 30px;
 	padding-left: 5px;
 }
 .myModal a {
 	text-decoration: none;
-}
+}*/
 
-.myModal .dialog .class2 hr {
+/*.myModal .dialog .class2 hr {
 	margin: 5px 0;
-}
+}*/
 
 .comment2 .comtent {
 	overflow-y: auto;
@@ -84,31 +93,28 @@
 	border-bottom: 1px solid white;
 }
 
-.class1 .channeo {
+.std-pane .class1 .channeo {
 	position: absolute;
-	bottom: 10px;
-	z-index: 100;
-	background-color: rgba(0, 0, 0, .4);
-	padding: 2% 0;
-	width: 48%;
-	text-align: center;
+    bottom: 15px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4% 0;
+    width: 63%;
+    text-align: center;
 }
 
-.class1 .channeo span {
-	background-color: rgba(0, 0, 0, .7);
-	padding: 10px;
-	margin: 0 5px;
-	border-radius: 7px;
-	color: white;
-	cursor: pointer;
-	border: 1px solid white;
+.std-pane .class1 .channeo span {
+	background-color: #0099CC;
+    padding: 15px 20px;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.class1 .channeo span:hover {
-	background-color: white;
-	color: green;
-	font-size: 20;
-	font-weight: bold;
+.std-pane .class1 .channeo span:hover {
+	background-color: #0d47a1;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.16), 0 4px 10px 0 rgba(0,0,0,.12);
 }
 
 .comment1 input[type="checkbox"]:not(:checked),
@@ -118,24 +124,17 @@
 
 .comment1 input[type="checkbox"]:not(:checked) + label,
 .comment1 input[type="checkbox"]:not(:checked) + label i {
-	color: black;
+	color: red;
 	cursor: pointer;
 }
 
 .comment1 input[type="checkbox"]:checked + label,
 .comment1 input[type="checkbox"]:checked + label i {
-	color: #337ab7;
+	color: red;
 	cursor: pointer;
 }
 
-.child span b {
+.child span b,.child span strike  {
 	color: red;
 }
 
-.child span strike {
-	color: black;
-}
-
-.comment1 {
-	line-height: 40px;
-}

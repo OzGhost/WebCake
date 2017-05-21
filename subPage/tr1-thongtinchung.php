@@ -37,7 +37,7 @@ session_start();
 						echo $row["HOTEN"];
 					}
 				} else {
-					echo "<span style='color: white; background-color: gray;'> Bạn chưa đăng nhập! </span>";
+					echo "<span> Bạn chưa đăng nhập! </span>";
 				}
 			?>
 		</div>
@@ -91,7 +91,7 @@ session_start();
 						echo $row["HOTEN"];
 					}
 				} else {
-					echo "<span style='color: white; background-color: gray;'> Bạn chưa đăng nhập! </span>";
+					echo "<span> Bạn chưa đăng nhập! </span>";
 				}
 			?><br>
 			Email: 
@@ -103,7 +103,7 @@ session_start();
 						echo $row["EMAIL"];
 					}
 				} else {
-					echo "<span style='color: white; background-color: gray;'> Bạn chưa đăng nhập! </span>";
+					echo "<span> Bạn chưa đăng nhập! </span>";
 				}
 			?>
 		</div>
@@ -138,7 +138,7 @@ session_start();
 					$row = $res->fetch_assoc();
 
 					if ($row == NULL){
-						echo 'Bạn chưa thiết lập địa chỉ giao hàng mặc định <br><br>';
+						echo 'Bạn chưa thiết lập địa chỉ giao hàng mặc định';
 					} else {
 						echo '<div class="defaultDC">
 									<table>
@@ -149,8 +149,7 @@ session_start();
 					}
 				}
 			?>
-			
-			
+
 		</div>
 		<div class="addadress">
 			<a href="tr1-adddc">Thêm địa chỉ mới</a>
@@ -161,7 +160,6 @@ session_start();
 				<h3>Danh sách bạn bè</h3>
 				Bạn có <span>0</span> bạn bè
 			</div>
-
 			<div class="foot2">
 				<a href="https://www.facebook.com/">Thêm bạn bè bằng facebook</a>
 			</div>

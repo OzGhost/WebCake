@@ -10,9 +10,9 @@
 	width: 300px;
 }
 .slidee.toggle input[type="submit"] {
-	color: hotpink;
-    background-color: #FFE4E1;;
-    padding: 15px 150px;
+	color: white;
+    background-color: #337ab7;
+    padding: 10px 30px;
     font-family: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -43,12 +43,12 @@
 .one ,.two ,.three ,.four ,.five ,.six ,.seven ,.eight{
 	padding: 5px;
 }
-
+/*
 .slidee.toggle span:not(.close-toggle-slidee) {
 	margin-right: 30%;
 
 	float: right;
-}
+}*/
 
 .slidee.toggle .user span {
 	margin: 0 auto;

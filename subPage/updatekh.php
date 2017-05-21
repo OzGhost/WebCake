@@ -17,7 +17,7 @@
 	}
 	if ($valid){
 		$server = "mysql.hostinger.vn";
-		$host = "u952681548_u952681548_root";
+		$host = "u952681548_root";
 		$pass = "ngaymai";
 		$db = "u952681548_cake";
 		$conn = new mysqli($server, $host, $pass, $db)
